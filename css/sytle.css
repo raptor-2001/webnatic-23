@@ -145,6 +145,12 @@ img, picture, svg, video {
   text-decoration: underline;
 }
 
+.footer{
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 2rem;
+}
 
 
 @media only screen and (max-width: 784px) {
