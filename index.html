@@ -4,6 +4,9 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Bootstrap CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   
   <!-- Custom Style sheet -->
   <link rel="stylesheet" href="./css/sytle.css">
@@ -11,16 +14,121 @@
   <!-- Font Awesome -->
   <script src="https://kit.fontawesome.com/d7261063d5.js" crossorigin="anonymous"></script>
 
-  <title>Webnatic</title>
+  <title>Marottie</title>
 </head>
 <body>
 
+ <!-- Start here -->
+
+<header>
+ <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <img class="logo" src="./assets/logo.svg" alt="marottie_logo">
+    <a class="navbar-brand" href="#">Marottie</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Rooms</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Nearby</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Others
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Reviews</a></li>
+            <li><a class="dropdown-item" href="#">About Us</a></li>
+          </ul>
+        </li>
+      </ul>
+      <form class="d-flex">
+        <button class="btn btn-custom" type="submit">Book Now</button>
+      </form>
+    </div>
+  </div>
+ </nav>
+</header>
+
+<section id="showcase">
+  <div class="container showcase-container">
+     <div class="content">
+      <h1 class="heading">Marottie <span class="golden">Hotel & Resort</span></h1>
+      <p class="text-fade">Our hotel is heaven on earth, join the us and the memorable experience..</p>
+     </div>
+     <div class="info">
+       <ul class="ul-info">
+        <li class="li-info">
+          <i class="fa fa-map-marker"></i>      
+        </li>
+        <li class="li-info">
+          <i class="fa fa-hotel"></i>
+        </li>
+        <li class="li-info">
+          <i class="fa fa-wifi"></i>
+        </li>
+        <li class="li-info">
+          <i class="fa fa-taxi"></i>
+        </li>
+       </ul>
+     </div>
+  </div>
+</section>
+  
+
+<section id="rooms">
+    <div class="room-conatiner">
+      <div class="room-img">
+        <img src="./assets/room.jpg" alt="room">
+      </div>
+      <div class="room-info">
+        <h3 class="golden">Luxiries Rooms</h3>
+        <p>well maintained and with a scenic beauty along the nature</p>
+      </div>
+    </div>
+</section>
+
+
+<section id="nearby">
+  <div class="container">
+    <div class="nearby-conatiner">
+      <div class="scene">
+        <img class="scene-img" src="./assets/scene_1.jpg" alt="pool">
+        <h3 class="golden scene-text text-center">POOLS</h3>
+      </div>
+      <div class="scene">
+        <img class="scene-img" src="./assets/scene_1.jpg" alt="pool">
+        <h3 class="golden scene-text text-center">SEA FACING</h3>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="explore">
+  <div class="exp-container">
+    <h3 class="golden  exp-text text-center">EXPLORE</h3>
+    <div class="nearby-conatiner">
+      <div class="scene">
+        <img class="scene-img" src="./assets/exp_1.jpg" alt="pool">
+      </div>
+      <div class="scene">
+        <img class="scene-img" src="./assets/exp_1.jpg" alt="pool">
+      </div>
+    </div>
+  </div>
+</section>
 
 
 
-
-
- 
+ <!-- Bootstarp JS CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
   <script src="./app.js"></script>
   
